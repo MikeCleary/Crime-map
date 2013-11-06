@@ -11,3 +11,17 @@
  *= require_self
  *= require_tree .
  */
+#map-canvas {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background: url(http://www.gorillaconvict.com/wp-content/uploads/2013/04/police-tape1.jpg);
+}
