@@ -9,17 +9,29 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require morris
  *= require_tree .
  */
 #map-canvas {
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 500px;
   border: 1px solid black;
-  margin: auto;
+  margin: 56px;
+  float: right;
+}
+
+#crime-chart {
+  width: 400px;
+  height: 400px;
+  margin: 56px;
+  background: yellow;
 }
 
 h1 {
+  margin: 0;
   text-align: center;
+  color: red;
+  font-family: "Edo";
 }
 
 body {

@@ -40,6 +40,9 @@ end
 # gem 'debugger', group: [:development, :test]
 gem 'httparty'
 gem 'pry'
+gem 'underscore-rails'
+gem 'morrisjs-rails'
+gem 'raphael-rails'
 
 group :development, :test do
   gem 'rspec-rails'
