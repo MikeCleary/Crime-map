@@ -6,5 +6,7 @@ class CrimesController < ApplicationController
   end
 
   def index
+    @comments = Comment.all
+    @comment = Comment.new
   end
 end

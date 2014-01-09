@@ -36,4 +36,40 @@ h1 {
 
 body {
   background: url(http://www.gorillaconvict.com/wp-content/uploads/2013/04/police-tape1.jpg);
+  font-family: arial;
+}
+
+li {
+  list-style-type: none;
+}
+
+.comment {
+  background: white;
+  width: 400px;
+  padding: 10px;
+  margin: 56px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  border-radius: 4px;
+}
+
+#new-comment-box {
+  margin-left: 56px;
+}
+
+#new-comment {
+  border-radius: 4px;
+  font-family: Arial;
+}
+
+.error {
+  background: #FFADA8;
+}
+
+.remove {
+  float: right;
+  color: blue;
+  text-decoration: underline;
+  font-size: 0.9em;
+  cursor: pointer;
 }

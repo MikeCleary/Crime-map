@@ -4,5 +4,13 @@
 
 <div id="crime-chart"></div>
 
-<ul id="crime-list">
-</ul>
+<div id="comments">
+  <%= render 'comments/comments_list' %>
+</div>
+
+<div id="new-comment-box">
+  <%= form_for @comment, :remote => true, :authenticity_token => true, :id => "comment-form" do |f| %>
+    <%= f.text_area :content, :cols => 65, :rows => 5, :placeholder => "Your comment...", :id => "new-comment" %></br>
+    <%= f.submit %>
+  <% end %>
+</div>
